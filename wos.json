@@ -1,0 +1,22 @@
+{
+    "key": "wos-package-dummy",
+    "name": "Dummy package for wos packager",
+    "description": "This is a sample package with minimum setup",    
+    "version": "1.0.0",
+    "author": "WinGs Robotics",
+    "email": "info@wingsrobotics.com",
+    "github": "https://github.com/WinGs-Robotics/wos_package_dummy",
+    "tags": [
+        "wos",
+        "dummy"
+    ],
+    "bin": [
+        "bin/dummy1"
+    ],
+    "lib": [
+        "lib/dummy2"
+    ],
+    "dependencies": [
+        "container://hello-world"
+    ]
+}
