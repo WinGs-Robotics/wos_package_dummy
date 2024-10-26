@@ -16,7 +16,7 @@
     "lib": [
         "lib/dummy2"
     ],
-    "dependencies": [
-        "container://hello-world"
-    ]
+    "dependencies": {
+        "container://hello-world": "latest"
+    }
 }
